@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libIO/libIO.cpp
+cstdio
+-
+
+/home/jiangmingrui/桌面/cmake/hmz/test1.cpp
+libIO.cpp
+/home/jiangmingrui/桌面/cmake/hmz/libIO.cpp
+stdio.h
+-
+iostream
+-
+

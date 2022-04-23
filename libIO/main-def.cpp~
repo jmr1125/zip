@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+struct IN{
+  IN();
+  IN(char*);
+  int8 read_byte();
+  int16 read_word();
+  FILE* fp=NULL;
+}

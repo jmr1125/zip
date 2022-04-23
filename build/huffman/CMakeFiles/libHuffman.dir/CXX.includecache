@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jiangmingrui/桌面/cmake/hmz/huffman/hufman.cpp
+libhufman.cpp
+/home/jiangmingrui/桌面/cmake/hmz/huffman/libhufman.cpp
+
+/home/jiangmingrui/桌面/cmake/hmz/huffman/libhufman.cpp
+queue
+-
+vector
+-
+

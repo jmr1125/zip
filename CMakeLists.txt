@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.0)
+project(hufmanZip VERSION 1.0)
+
+include_directories("${PROJECT_SOURCE_DIR}/libIO/")
+message("path\"${PROJECT_SOURCE_DIR}\"")
+
+add_subdirectory(libIO)
+add_subdirectory(huffman)
+
+add_executable(testIO test1.cpp)
+target_link_libraries(testIO libIO)

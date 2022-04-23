@@ -1,0 +1,39 @@
+#include"libhufman.cpp"
+
+HufmanTree::HufmanTree(){
+  l=r=NULL;
+}
+HuffmanTree::~HufmanTree(){
+  if(l){
+    delete *l;
+  }
+  if(r){
+    delete *r;
+  }
+}
+bool HuffmanTree::operator < (const HufmanTree & rsh) const{
+  return freq < rsh.freq;
+}
+
+template<typename valT>
+HufmanTree* create(vector<valT> val,vector<int> freq){
+  prorirory_queue<int> que;
+  for(auto & i : val){
+    HufmanTree<valT>* it=new HufmanTree<valT>;
+    it->val=i;
+    it->freq=frep.at(i);
+    que.push(it);
+  }
+  while(que.size()!=1){
+    HuffmanTree * it1=que.top();
+    que.pop();
+    HuffmanTree * it2=que.top();
+    HuffmanTree<valT> * it=new HuffmanTree<valt>;
+    it->l=it1;
+    it->r=it2;
+    it->val=-1;
+    it->freq = it1->freq + it2->freq;
+    que.push(it);
+  }
+  return que.top();
+}

@@ -1,0 +1,17 @@
+#include<queue>
+#include<vector>
+
+
+
+template<typename T>
+struct HufmanTree{
+  HufmanTree();
+  ~HufmanTree();
+  HufmanTree *l,*r;
+  T val;
+  int freq;
+  bool operator < (const HufmanTree &) const;
+};
+
+template<typename valT>
+HufmanTree* create(vector<valT>,vector<int>);
