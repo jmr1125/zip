@@ -44,3 +44,9 @@ HuffmanTree<valT>* create(vector<valT> val,vector<int> freq){
   }
   return que.top();
 }
+template<typename valT>
+void display(HuffmanTree<valT> & Tree){
+  printf("freq: %d , val: %d\n",Tree,Tree.freq,Tree.val);
+  if(Tree.l) display(*Tree.l);
+  if(Tree.r) display(*Tree.r);
+}
