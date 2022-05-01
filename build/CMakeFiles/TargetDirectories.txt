@@ -1,9 +1,0 @@
-/home/jiangmingrui/桌面/cmake/hmz/build/CMakeFiles/rebuild_cache.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/CMakeFiles/edit_cache.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/CMakeFiles/testIO.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/libIO/CMakeFiles/rebuild_cache.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/libIO/CMakeFiles/edit_cache.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/libIO/CMakeFiles/libIO.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/huffman/CMakeFiles/rebuild_cache.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/huffman/CMakeFiles/edit_cache.dir
-/home/jiangmingrui/桌面/cmake/hmz/build/huffman/CMakeFiles/libHuffman.dir

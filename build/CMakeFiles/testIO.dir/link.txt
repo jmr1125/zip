@@ -1,1 +1,0 @@
-/bin/clang++    -rdynamic CMakeFiles/testIO.dir/test1.cpp.o  -o testIO  libIO/liblibIO.a 
