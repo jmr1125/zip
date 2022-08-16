@@ -1,0 +1,6 @@
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/CMakeFiles/test1.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/fol.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/rebuild_cache.dir

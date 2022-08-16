@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/j_nh/Desktop/vim/hmz/FOLib/main-def.cpp
+stdio.h
+-
+
+/mnt/c/Users/j_nh/Desktop/vim/hmz/testFOLib.cpp
+FOLib/main-def.cpp
+/mnt/c/Users/j_nh/Desktop/vim/hmz/FOLib/main-def.cpp
+
