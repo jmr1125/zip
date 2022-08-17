@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 E:/hmz/build/CMakeFiles/testIO.dir
 E:/hmz/build/CMakeFiles/edit_cache.dir
 E:/hmz/build/CMakeFiles/rebuild_cache.dir
@@ -7,3 +8,11 @@ E:/hmz/build/libIO/CMakeFiles/rebuild_cache.dir
 E:/hmz/build/huffman/CMakeFiles/libHuffman.dir
 E:/hmz/build/huffman/CMakeFiles/edit_cache.dir
 E:/hmz/build/huffman/CMakeFiles/rebuild_cache.dir
+=======
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/CMakeFiles/test1.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/fol.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/rebuild_cache.dir
+>>>>>>> ac44556d321a72b2640caf29ef0bac9b22ec57f7
