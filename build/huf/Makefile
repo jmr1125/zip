@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/l/hmz/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/l/hmz/build/CMakeFiles /mnt/l/hmz/build/FOlib//CMakeFiles/progress.marks
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FOlib/all
+	cd /mnt/l/hmz/build && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/l/hmz/build/CMakeFiles /mnt/l/hmz/build/huf//CMakeFiles/progress.marks
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 huf/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/l/hmz/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FOlib/clean
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 huf/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,12 +103,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FOlib/preinstall
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 huf/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FOlib/preinstall
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 huf/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-FOlib/CMakeFiles/fol.dir/rule:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FOlib/CMakeFiles/fol.dir/rule
-.PHONY : FOlib/CMakeFiles/fol.dir/rule
+huf/CMakeFiles/huf.dir/rule:
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 huf/CMakeFiles/huf.dir/rule
+.PHONY : huf/CMakeFiles/huf.dir/rule
 
 # Convenience name for target.
-fol: FOlib/CMakeFiles/fol.dir/rule
-.PHONY : fol
+huf: huf/CMakeFiles/huf.dir/rule
+.PHONY : huf
 
 # fast build rule for target.
-fol/fast:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f FOlib/CMakeFiles/fol.dir/build.make FOlib/CMakeFiles/fol.dir/build
-.PHONY : fol/fast
+huf/fast:
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f huf/CMakeFiles/huf.dir/build.make huf/CMakeFiles/huf.dir/build
+.PHONY : huf/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f FOlib/CMakeFiles/fol.dir/build.make FOlib/CMakeFiles/fol.dir/main.cpp.o
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f huf/CMakeFiles/huf.dir/build.make huf/CMakeFiles/huf.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f FOlib/CMakeFiles/fol.dir/build.make FOlib/CMakeFiles/fol.dir/main.cpp.i
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f huf/CMakeFiles/huf.dir/build.make huf/CMakeFiles/huf.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f FOlib/CMakeFiles/fol.dir/build.make FOlib/CMakeFiles/fol.dir/main.cpp.s
+	cd /mnt/l/hmz/build && $(MAKE) $(MAKESILENT) -f huf/CMakeFiles/huf.dir/build.make huf/CMakeFiles/huf.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... fol"
+	@echo "... huf"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

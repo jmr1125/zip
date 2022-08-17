@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/l/hmz/FOlib/main.cpp" "FOlib/CMakeFiles/fol.dir/main.cpp.o" "gcc" "FOlib/CMakeFiles/fol.dir/main.cpp.o.d"
+  "/mnt/l/hmz/huf/main.cpp" "huf/CMakeFiles/huf.dir/main.cpp.o" "gcc" "huf/CMakeFiles/huf.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

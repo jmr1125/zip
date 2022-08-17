@@ -8,6 +8,7 @@ message("${CMAKE_INSTALL_PREFIX}")
 
 # add_subdictionary(FOlib)
 add_subdirectory(FOlib)
+add_subdirectory(huf)
 
 link_directories(${PROJECT_BINARY_DIR}/FOlib)
 

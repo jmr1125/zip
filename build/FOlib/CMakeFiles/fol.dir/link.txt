@@ -1,2 +1,2 @@
-/bin/ar qc libfol.a CMakeFiles/fol.dir/main.cpp.o
-/bin/ranlib libfol.a
+/bin/llvm-ar qc libfol.a CMakeFiles/fol.dir/main.cpp.o
+/bin/llvm-ranlib libfol.a

@@ -1,0 +1,2 @@
+/bin/llvm-ar qc libhuf.a CMakeFiles/huf.dir/main.cpp.o
+/bin/llvm-ranlib libhuf.a

@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/l/hmz/FOlib
+# Install script for directory: /mnt/l/hmz/huf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

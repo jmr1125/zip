@@ -4,7 +4,7 @@
 # compile CXX with /bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/j_nh/Desktop/vim/hmz/FOLib
+CXX_INCLUDES = -I/mnt/l/hmz/FOLib
 
 CXX_FLAGS = 
 

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/j_nh/Desktop/vim/hmz/testFOLib.cpp" "CMakeFiles/test1.dir/testFOLib.cpp.o" "gcc" "CMakeFiles/test1.dir/testFOLib.cpp.o.d"
+  "/mnt/l/hmz/testFOLib.cpp" "CMakeFiles/test1.dir/testFOLib.cpp.o" "gcc" "CMakeFiles/test1.dir/testFOLib.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib/CMakeFiles/fol.dir/DependInfo.cmake"
+  "/mnt/l/hmz/build/FOlib/CMakeFiles/fol.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

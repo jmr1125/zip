@@ -1,0 +1,114 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /mnt/l/hmz/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d68d/fast && /usr/bin/make  -f CMakeFiles/cmTC_8d68d.dir/build.make CMakeFiles/cmTC_8d68d.dir/build
+make[1]: Entering directory '/mnt/l/hmz/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o
+/bin/clang   -v -MD -MT CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o -c /mnt/c/Users/j_nh/Desktop/vim/cmake-3.24.0-rc4-linux-x86_64/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang version 10.0.0-4ubuntu1 
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/lib/cuda, version 10.1
+ (in-process)
+ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /mnt/l/hmz/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o -x c /mnt/c/Users/j_nh/Desktop/vim/cmake-3.24.0-rc4-linux-x86_64/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /usr/lib/llvm-10/lib/clang/10.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_8d68d
+/mnt/c/Users/j_nh/Desktop/vim/cmake-3.24.0-rc4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d68d.dir/link.txt --verbose=1
+/bin/clang  -v -rdynamic CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o -o cmTC_8d68d 
+clang version 10.0.0-4ubuntu1 
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/lib/cuda, version 10.1
+ "/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8d68d /bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/9 -L/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_8d68d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/mnt/l/hmz/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  '/mnt/l/hmz/build/CMakeFiles/CMakeTmp/cmTC_8d68d'
+to destination specified by COPY_FILE:
+  '/mnt/l/hmz/build/CMakeFiles/3.24.0-rc4/CMakeDetermineCompilerABI_C.bin'
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /mnt/l/hmz/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7272e/fast && /usr/bin/make  -f CMakeFiles/cmTC_7272e.dir/build.make CMakeFiles/cmTC_7272e.dir/build
+make[1]: Entering directory '/mnt/l/hmz/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o
+/bin/clang++   -v -MD -MT CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o -c /mnt/c/Users/j_nh/Desktop/vim/cmake-3.24.0-rc4-linux-x86_64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang version 10.0.0-4ubuntu1 
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/lib/cuda, version 10.1
+ (in-process)
+ "/usr/lib/llvm-10/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mframe-pointer=all -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -munwind-tables -target-cpu x86-64 -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /usr/lib/llvm-10/lib/clang/10.0.0 -dependency-file CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9 -internal-isystem /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward -internal-isystem /usr/local/include -internal-isystem /usr/lib/llvm-10/lib/clang/10.0.0/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir /mnt/l/hmz/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o -x c++ /mnt/c/Users/j_nh/Desktop/vim/cmake-3.24.0-rc4-linux-x86_64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.0 based upon LLVM 10.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"
+#include "..." search starts here:
+#include <...> search starts here:
+ /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9
+ /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9
+ /bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward
+ /usr/local/include
+ /usr/lib/llvm-10/lib/clang/10.0.0/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_7272e
+/mnt/c/Users/j_nh/Desktop/vim/cmake-3.24.0-rc4-linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7272e.dir/link.txt --verbose=1
+/bin/clang++  -v -rdynamic CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7272e 
+clang version 10.0.0-4ubuntu1 
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /bin
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/8
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/9
+Selected GCC installation: /bin/../lib/gcc/x86_64-linux-gnu/9
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+Found CUDA installation: /usr/lib/cuda, version 10.1
+ "/bin/ld" -export-dynamic -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_7272e /bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crt1.o /bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /bin/../lib/gcc/x86_64-linux-gnu/9/crtbegin.o -L/bin/../lib/gcc/x86_64-linux-gnu/9 -L/bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu/../../lib64 -L/bin/../lib/gcc/x86_64-linux-gnu/9/../../.. -L/usr/lib/llvm-10/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_7272e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /bin/../lib/gcc/x86_64-linux-gnu/9/crtend.o /bin/../lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/mnt/l/hmz/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  '/mnt/l/hmz/build/CMakeFiles/CMakeTmp/cmTC_7272e'
+to destination specified by COPY_FILE:
+  '/mnt/l/hmz/build/CMakeFiles/3.24.0-rc4/CMakeDetermineCompilerABI_CXX.bin'
+
+

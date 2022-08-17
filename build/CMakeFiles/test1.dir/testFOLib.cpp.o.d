@@ -1,7 +1,5 @@
-CMakeFiles/test1.dir/testFOLib.cpp.o: \
-  /mnt/c/Users/j_nh/Desktop/vim/hmz/testFOLib.cpp \
-  /mnt/c/Users/j_nh/Desktop/vim/hmz/FOLib/main-def.cpp \
-  /usr/include/stdio.h \
+CMakeFiles/test1.dir/testFOLib.cpp.o: /mnt/l/hmz/testFOLib.cpp \
+  /mnt/l/hmz/FOLib/main-def.cpp /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/stdc-predef.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \

@@ -1,1 +1,1 @@
-/bin/clang++ -rdynamic CMakeFiles/test1.dir/testFOLib.cpp.o -o test1   -L/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib  -Wl,-rpath,/mnt/c/Users/j_nh/Desktop/vim/hmz/build/FOlib FOlib/libfol.a 
+/bin/clang++ -rdynamic CMakeFiles/test1.dir/testFOLib.cpp.o -o test1   -L/mnt/l/hmz/build/FOlib  -Wl,-rpath,/mnt/l/hmz/build/FOlib FOlib/libfol.a 

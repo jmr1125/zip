@@ -1,7 +1,5 @@
-FOlib/CMakeFiles/fol.dir/main.cpp.o: \
-  /mnt/c/Users/j_nh/Desktop/vim/hmz/FOlib/main.cpp \
-  /mnt/c/Users/j_nh/Desktop/vim/hmz/FOLib/main-def.cpp \
-  /usr/include/stdio.h \
+FOlib/CMakeFiles/fol.dir/main.cpp.o: /mnt/l/hmz/FOlib/main.cpp \
+  /mnt/l/hmz/FOLib/main-def.cpp /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h /usr/include/stdc-predef.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
