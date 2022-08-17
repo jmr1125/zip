@@ -3,8 +3,8 @@
 
 #define OPEN_ERR 1
 
-typedef __int8_t int8;
-typedef __int16_t int16;
+typedef char int8;
+typedef short int16;
 
 struct IN{
   IN();

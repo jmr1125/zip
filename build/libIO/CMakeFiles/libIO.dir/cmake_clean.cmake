@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/libIO.dir/main.cpp.o"
+  "CMakeFiles/libIO.dir/main.cpp.obj"
+  "CMakeFiles/libIO.dir/main.cpp.obj.d"
   "liblibIO.a"
   "liblibIO.pdb"
 )

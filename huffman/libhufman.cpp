@@ -1,5 +1,6 @@
 #include<queue>
 #include<vector>
+#include<stddef.h>
 
 using std::vector;
 using std::priority_queue;
