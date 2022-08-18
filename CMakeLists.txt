@@ -16,3 +16,5 @@ add_executable(test2 test2.cpp)
 target_link_libraries(test2 libHuffman)
 target_link_libraries(test1 fol)
 
+add_executable(main main.cpp)
+target_link_libraries(main libHuffman fol)
