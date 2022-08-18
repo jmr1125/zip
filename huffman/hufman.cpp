@@ -1,41 +1,50 @@
 #include"libhufman.cpp"
+#include <stdio.h>
+#include <vector>
+#include <algorithm>
+#include <functional>
 
 
-template<typename T>
-HuffmanTree<T>::HuffmanTree(){
+using std::priority_queue;
+using std::map;
+using std::vector;
+using std::less;
+
+HuffmanTree::HuffmanTree(){
   l=r=NULL;
 }
 
-template<typename T>
-HuffmanTree<T>::~HuffmanTree(){
+HuffmanTree::~HuffmanTree(){
   if(l){
-    delete *l;
+    delete l;
   }
   if(r){
-    delete *r;
+    delete r;
   }
 }
 
-template<typename T>
-bool HuffmanTree<T>::operator < (const HuffmanTree & rsh) const{
+bool HuffmanTree::operator < (const HuffmanTree &rsh) const{
   return freq < rsh.freq;
 }
 
-template<typename T=char>
-HuffmanTree<T>* create(vector<T> val,vector<int> freq){
+HuffmanTree* create(map<char,int> mp){
   //prorirory_queue<int> que;
-  priority_queue <HuffmanTree<T> > que;
-  for(auto & i : val){
-    HuffmanTree<T>* it=new HuffmanTree<T>;
-    it->val=i;
-    it->freq=freq.at(i);
+  priority_queue <HuffmanTree* ,vector<HuffmanTree*> ,less<> > que;
+  for(auto & i : mp){
+    auto * it = new HuffmanTree;
+    it->val=i.first;
+    it->freq=i.second;
     que.push(it);
+    printf("%c %d\n",it->val,it->freq);
   }
+  printf("ok\n");
   while(que.size()!=1){
-    HuffmanTree<T> * it1=que.top();
+    HuffmanTree * it1=que.top();
     que.pop();
-    HuffmanTree<T> * it2=que.top();
-    HuffmanTree<T> * it=new HuffmanTree<T>;
+    HuffmanTree * it2=que.top();
+    que.pop();
+    printf("%d %d %d %d\n",(int)it1->val,it1->freq,(int)it2->val,it2->freq);
+    HuffmanTree * it=new HuffmanTree;
     it->l=it1;
     it->r=it2;
     it->val=-1;
@@ -44,9 +53,8 @@ HuffmanTree<T>* create(vector<T> val,vector<int> freq){
   }
   return que.top();
 }
-template<typename T>
-void display(HuffmanTree<T> * Tree){
-  printf("freq: %d , val: %d\n",Tree,Tree->freq,Tree->val);
-  if(Tree->l) display(*Tree->l);
-  if(Tree->r) display(*Tree->r);
+void display(HuffmanTree * Tree){
+  printf("freq: %d , val: %d\n",Tree->freq,Tree->val);
+  if(Tree->l) display(Tree->l);
+  if(Tree->r) display(Tree->r);
 }

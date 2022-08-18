@@ -1,12 +1,12 @@
 #include<queue>
 #include<vector>
 #include<stddef.h>
+#include<map>
 
-using std::vector;
-using std::priority_queue;
+using std::map;
 
-template<typename T=char>
 struct HuffmanTree{
+  using T=char;
   HuffmanTree();
   ~HuffmanTree();
   HuffmanTree *l,*r;
@@ -15,8 +15,7 @@ struct HuffmanTree{
   bool operator < (const HuffmanTree &) const;
 };
 
-template<typename valT=char>
-HuffmanTree<valT>* create(vector<valT> val,vector<int> freq);
 
-template<typename valT=char>
-void display(HuffmanTree<valT> * Tree);
+HuffmanTree* create(map<char,int> mp);
+
+void display(HuffmanTree * Tree);
