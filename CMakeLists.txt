@@ -8,10 +8,11 @@ message("${CMAKE_INSTALL_PREFIX}")
 
 # add_subdictionary(FOlib)
 add_subdirectory(FOlib)
-add_subdirectory(huf)
+add_subdirectory(huffman)
 
-link_directories(${PROJECT_BINARY_DIR}/FOlib)
 
 add_executable(test1 testFOLib.cpp)
+add_executable(test2 test2.cpp)
+target_link_libraries(test2 libHuffman)
 target_link_libraries(test1 fol)
 

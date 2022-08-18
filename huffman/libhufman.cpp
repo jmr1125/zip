@@ -16,7 +16,7 @@ struct HuffmanTree{
 };
 
 template<typename valT>
-HuffmanTree<valT>* create(vector<valT>,vector<int>);
+HuffmanTree<valT>* create(vector<valT> val,vector<int> freq);
 
 template<typename valT>
-void display(HuffmanTree<valT> &);
+void display(HuffmanTree<valT> * Tree);
