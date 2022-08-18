@@ -5,7 +5,7 @@
 using std::vector;
 using std::priority_queue;
 
-template<typename T>
+template<typename T=char>
 struct HuffmanTree{
   HuffmanTree();
   ~HuffmanTree();
@@ -15,8 +15,8 @@ struct HuffmanTree{
   bool operator < (const HuffmanTree &) const;
 };
 
-template<typename valT>
+template<typename valT=char>
 HuffmanTree<valT>* create(vector<valT> val,vector<int> freq);
 
-template<typename valT>
+template<typename valT=char>
 void display(HuffmanTree<valT> * Tree);
