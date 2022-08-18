@@ -4,6 +4,7 @@
 #include<map>
 
 using std::map;
+using std::string;
 
 struct HuffmanTree{
   using T=char;
@@ -18,4 +19,4 @@ struct HuffmanTree{
 
 HuffmanTree* create(map<char,int> mp);
 
-void display(HuffmanTree * Tree);
+void display(HuffmanTree * Tree,string code = "0");

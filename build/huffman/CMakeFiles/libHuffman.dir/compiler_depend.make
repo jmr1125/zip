@@ -112,7 +112,15 @@ huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj: ../huffman/hufman.cpp \
   C:/MinGW/include/stdio.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/algorithm \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/functional \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/typeinfo
 
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h:
@@ -315,6 +323,8 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/gthr-default.h:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/algorithm:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cstdlib:
@@ -326,3 +336,17 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cerrno:
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/basic_string.tcc:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/limits:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/functional:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/typeinfo:

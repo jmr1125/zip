@@ -53,8 +53,8 @@ HuffmanTree* create(map<char,int> mp){
   }
   return que.top();
 }
-void display(HuffmanTree * Tree){
-  printf("freq: %d , val: %d\n",Tree->freq,Tree->val);
-  if(Tree->l) display(Tree->l);
-  if(Tree->r) display(Tree->r);
+void display(HuffmanTree * Tree,string code){
+  printf("freq: %d , val: %d, code: %s\n",Tree->freq,Tree->val,code.c_str());
+  if(Tree->l) display(Tree->l,code + "0");
+  if(Tree->r) display(Tree->r,code + "1");
 }
