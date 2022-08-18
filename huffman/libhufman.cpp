@@ -19,4 +19,4 @@ struct HuffmanTree{
 
 HuffmanTree* create(map<char,int> mp);
 
-void display(HuffmanTree * Tree,string code = "0");
+void display(HuffmanTree * Tree,string code = "");
