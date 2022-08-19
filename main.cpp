@@ -17,13 +17,10 @@ void args(int argc,char**argv){
   if(argc==1){
     disphelp(argc,argv);
   }
-  bool iflag=false;
   for(int i=0;i<argc;++i){
     if(strcmp(argv[i],"-h")==0){
-      iflag=false;
       disphelp(argc,argv);
-    }else if(iflag||strcmp(argv[i],"-i")==0){
-      iflag=true;
+    }else if(strcmp(argv[i],"-i")==0){
       files.push_back(argv[i+1]);
     }else{
       continue;
