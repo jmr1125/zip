@@ -4,4 +4,6 @@ FOlib/CMakeFiles/fol.dir/main.cpp.obj: E:\hmz\FOLib\main.cpp \
  c:\mingw\include\w32api.h c:\mingw\include\sdkddkver.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\include\sys/types.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
+ c:\mingw\lib\gcc\mingw32\6.3.0\include\stdint.h \
+ c:\mingw\include\stdint.h

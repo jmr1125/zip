@@ -54,6 +54,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test1.dir/DependInfo.cmake"
   "CMakeFiles/test2.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   "FOlib/CMakeFiles/fol.dir/DependInfo.cmake"
   "huffman/CMakeFiles/libHuffman.dir/DependInfo.cmake"
   )

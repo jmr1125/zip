@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdint.h>
 
-typedef char int8_t;
-typedef short int16_t;
+//typedef char int8_t;
+//typedef short int16_t;
 
 
 struct filein{

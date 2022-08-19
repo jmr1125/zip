@@ -1,5 +1,6 @@
 E:/hmz/build/CMakeFiles/test1.dir
 E:/hmz/build/CMakeFiles/test2.dir
+E:/hmz/build/CMakeFiles/main.dir
 E:/hmz/build/CMakeFiles/edit_cache.dir
 E:/hmz/build/CMakeFiles/rebuild_cache.dir
 E:/hmz/build/FOlib/CMakeFiles/fol.dir

@@ -10,7 +10,9 @@ FOlib/CMakeFiles/fol.dir/main.cpp.obj: ../FOLib/main.cpp \
   C:/MinGW/include/sdkddkver.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/MinGW/include/sys/types.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h \
+  C:/MinGW/include/stdint.h
 
 
 ../FOLib/main.cpp:
@@ -32,3 +34,7 @@ C:/MinGW/include/w32api.h:
 C:/MinGW/include/sys/types.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h:
+
+C:/MinGW/include/stdint.h:

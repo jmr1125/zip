@@ -142,6 +142,19 @@ test2/fast:
 .PHONY : test2/fast
 
 #=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
+
+#=============================================================================
 # Target rules for targets named fol
 
 # Build rule for target.
@@ -166,6 +179,30 @@ libHuffman: cmake_check_build_system
 libHuffman/fast:
 	$(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/build
 .PHONY : libHuffman/fast
+
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 test2.obj: test2.cpp.obj
 .PHONY : test2.obj
@@ -225,8 +262,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... fol
 	@echo ... libHuffman
+	@echo ... main
 	@echo ... test1
 	@echo ... test2
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... test2.obj
 	@echo ... test2.i
 	@echo ... test2.s
