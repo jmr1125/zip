@@ -1,4 +1,4 @@
-# Install script for directory: E:/hmz/FOLib
+# Install script for directory: L:/hmz/FOLib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

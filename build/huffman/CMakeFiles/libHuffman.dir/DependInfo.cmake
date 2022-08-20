@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/hmz/huffman/hufman.cpp" "huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj" "gcc" "huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj.d"
+  "L:/hmz/huffman/hufman.cpp" "huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj" "gcc" "huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj.d"
   )
 
 # Targets to which this target links.

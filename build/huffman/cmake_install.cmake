@@ -1,4 +1,4 @@
-# Install script for directory: E:/hmz/huffman
+# Install script for directory: L:/hmz/huffman
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

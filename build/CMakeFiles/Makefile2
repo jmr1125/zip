@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\hmz
+CMAKE_SOURCE_DIR = L:\hmz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\hmz\build
+CMAKE_BINARY_DIR = L:\hmz\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -65,12 +65,12 @@ CMAKE_BINARY_DIR = E:\hmz\build
 all: CMakeFiles/test1.dir/all
 all: CMakeFiles/test2.dir/all
 all: CMakeFiles/main.dir/all
-all: FOlib/all
+all: FOLib/all
 all: huffman/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: FOlib/preinstall
+preinstall: FOLib/preinstall
 preinstall: huffman/preinstall
 .PHONY : preinstall
 
@@ -78,24 +78,24 @@ preinstall: huffman/preinstall
 clean: CMakeFiles/test1.dir/clean
 clean: CMakeFiles/test2.dir/clean
 clean: CMakeFiles/main.dir/clean
-clean: FOlib/clean
+clean: FOLib/clean
 clean: huffman/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory FOlib
+# Directory level rules for directory FOLib
 
 # Recursive "all" directory target.
-FOlib/all: FOlib/CMakeFiles/fol.dir/all
-.PHONY : FOlib/all
+FOLib/all: FOLib/CMakeFiles/fol.dir/all
+.PHONY : FOLib/all
 
 # Recursive "preinstall" directory target.
-FOlib/preinstall:
-.PHONY : FOlib/preinstall
+FOLib/preinstall:
+.PHONY : FOLib/preinstall
 
 # Recursive "clean" directory target.
-FOlib/clean: FOlib/CMakeFiles/fol.dir/clean
-.PHONY : FOlib/clean
+FOLib/clean: FOLib/CMakeFiles/fol.dir/clean
+.PHONY : FOLib/clean
 
 #=============================================================================
 # Directory level rules for directory huffman
@@ -116,17 +116,17 @@ huffman/clean: huffman/CMakeFiles/libHuffman.dir/clean
 # Target rules for target CMakeFiles/test1.dir
 
 # All Build rule for target.
-CMakeFiles/test1.dir/all: FOlib/CMakeFiles/fol.dir/all
+CMakeFiles/test1.dir/all: FOLib/CMakeFiles/fol.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test1.dir\build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\hmz\build\CMakeFiles --progress-num=7,8 "Built target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=L:\hmz\build\CMakeFiles --progress-num=7,8 "Built target test1"
 .PHONY : CMakeFiles/test1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 0
 .PHONY : CMakeFiles/test1.dir/rule
 
 # Convenience name for target.
@@ -145,14 +145,14 @@ CMakeFiles/test1.dir/clean:
 CMakeFiles/test2.dir/all: huffman/CMakeFiles/libHuffman.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test2.dir\build.make CMakeFiles/test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\hmz\build\CMakeFiles --progress-num=9,10 "Built target test2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=L:\hmz\build\CMakeFiles --progress-num=9,10 "Built target test2"
 .PHONY : CMakeFiles/test2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/test2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 0
 .PHONY : CMakeFiles/test2.dir/rule
 
 # Convenience name for target.
@@ -168,18 +168,18 @@ CMakeFiles/test2.dir/clean:
 # Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all: FOlib/CMakeFiles/fol.dir/all
+CMakeFiles/main.dir/all: FOLib/CMakeFiles/fol.dir/all
 CMakeFiles/main.dir/all: huffman/CMakeFiles/libHuffman.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\hmz\build\CMakeFiles --progress-num=5,6 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=L:\hmz\build\CMakeFiles --progress-num=5,6 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -192,30 +192,30 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target FOlib/CMakeFiles/fol.dir
+# Target rules for target FOLib/CMakeFiles/fol.dir
 
 # All Build rule for target.
-FOlib/CMakeFiles/fol.dir/all:
-	$(MAKE) $(MAKESILENT) -f FOlib\CMakeFiles\fol.dir\build.make FOlib/CMakeFiles/fol.dir/depend
-	$(MAKE) $(MAKESILENT) -f FOlib\CMakeFiles\fol.dir\build.make FOlib/CMakeFiles/fol.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\hmz\build\CMakeFiles --progress-num=1,2 "Built target fol"
-.PHONY : FOlib/CMakeFiles/fol.dir/all
+FOLib/CMakeFiles/fol.dir/all:
+	$(MAKE) $(MAKESILENT) -f FOLib\CMakeFiles\fol.dir\build.make FOLib/CMakeFiles/fol.dir/depend
+	$(MAKE) $(MAKESILENT) -f FOLib\CMakeFiles\fol.dir\build.make FOLib/CMakeFiles/fol.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=L:\hmz\build\CMakeFiles --progress-num=1,2 "Built target fol"
+.PHONY : FOLib/CMakeFiles/fol.dir/all
 
 # Build rule for subdir invocation for target.
-FOlib/CMakeFiles/fol.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FOlib/CMakeFiles/fol.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 0
-.PHONY : FOlib/CMakeFiles/fol.dir/rule
+FOLib/CMakeFiles/fol.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FOLib/CMakeFiles/fol.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 0
+.PHONY : FOLib/CMakeFiles/fol.dir/rule
 
 # Convenience name for target.
-fol: FOlib/CMakeFiles/fol.dir/rule
+fol: FOLib/CMakeFiles/fol.dir/rule
 .PHONY : fol
 
 # clean rule for target.
-FOlib/CMakeFiles/fol.dir/clean:
-	$(MAKE) $(MAKESILENT) -f FOlib\CMakeFiles\fol.dir\build.make FOlib/CMakeFiles/fol.dir/clean
-.PHONY : FOlib/CMakeFiles/fol.dir/clean
+FOLib/CMakeFiles/fol.dir/clean:
+	$(MAKE) $(MAKESILENT) -f FOLib\CMakeFiles\fol.dir\build.make FOLib/CMakeFiles/fol.dir/clean
+.PHONY : FOLib/CMakeFiles/fol.dir/clean
 
 #=============================================================================
 # Target rules for target huffman/CMakeFiles/libHuffman.dir
@@ -224,14 +224,14 @@ FOlib/CMakeFiles/fol.dir/clean:
 huffman/CMakeFiles/libHuffman.dir/all:
 	$(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/depend
 	$(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\hmz\build\CMakeFiles --progress-num=3,4 "Built target libHuffman"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=L:\hmz\build\CMakeFiles --progress-num=3,4 "Built target libHuffman"
 .PHONY : huffman/CMakeFiles/libHuffman.dir/all
 
 # Build rule for subdir invocation for target.
 huffman/CMakeFiles/libHuffman.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/CMakeFiles/libHuffman.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 0
 .PHONY : huffman/CMakeFiles/libHuffman.dir/rule
 
 # Convenience name for target.

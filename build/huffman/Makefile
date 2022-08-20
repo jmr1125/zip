@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\hmz
+CMAKE_SOURCE_DIR = L:\hmz
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\hmz\build
+CMAKE_BINARY_DIR = L:\hmz\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\hmz\build && $(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles E:\hmz\build\huffman\\CMakeFiles\progress.marks
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\hmz\build\CMakeFiles 0
+	cd /d L:\hmz\build && $(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles L:\hmz\build\huffman\\CMakeFiles\progress.marks
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/all
+	$(CMAKE_COMMAND) -E cmake_progress_start L:\hmz\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/clean
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/preinstall
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/preinstall
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\hmz\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d L:\hmz\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 huffman/CMakeFiles/libHuffman.dir/rule:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/CMakeFiles/libHuffman.dir/rule
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 huffman/CMakeFiles/libHuffman.dir/rule
 .PHONY : huffman/CMakeFiles/libHuffman.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ libHuffman: huffman/CMakeFiles/libHuffman.dir/rule
 
 # fast build rule for target.
 libHuffman/fast:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/build
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/build
 .PHONY : libHuffman/fast
 
 hufman.obj: hufman.cpp.obj
@@ -134,7 +134,7 @@ hufman.obj: hufman.cpp.obj
 
 # target to build an object file
 hufman.cpp.obj:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/hufman.cpp.obj
 .PHONY : hufman.cpp.obj
 
 hufman.i: hufman.cpp.i
@@ -142,7 +142,7 @@ hufman.i: hufman.cpp.i
 
 # target to preprocess a source file
 hufman.cpp.i:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/hufman.cpp.i
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/hufman.cpp.i
 .PHONY : hufman.cpp.i
 
 hufman.s: hufman.cpp.s
@@ -150,7 +150,7 @@ hufman.s: hufman.cpp.s
 
 # target to generate assembly for a file
 hufman.cpp.s:
-	cd /d E:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/hufman.cpp.s
+	cd /d L:\hmz\build && $(MAKE) $(MAKESILENT) -f huffman\CMakeFiles\libHuffman.dir\build.make huffman/CMakeFiles/libHuffman.dir/hufman.cpp.s
 .PHONY : hufman.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\hmz\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d L:\hmz\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

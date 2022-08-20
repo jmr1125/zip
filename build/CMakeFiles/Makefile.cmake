@@ -30,10 +30,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.22/Modules/Platform/WindowsPaths.cmake"
   "../CMakeLists.txt"
   "../FOLib/CMakeLists.txt"
-  "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
-  "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.22.1/CMakeRCCompiler.cmake"
-  "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "CMakeFiles/3.22.0/CMakeCCompiler.cmake"
+  "CMakeFiles/3.22.0/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.22.0/CMakeRCCompiler.cmake"
+  "CMakeFiles/3.22.0/CMakeSystem.cmake"
   "../huffman/CMakeLists.txt"
   )
 
@@ -46,7 +46,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "FOlib/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "FOLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "huffman/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -55,6 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/test1.dir/DependInfo.cmake"
   "CMakeFiles/test2.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
-  "FOlib/CMakeFiles/fol.dir/DependInfo.cmake"
+  "FOLib/CMakeFiles/fol.dir/DependInfo.cmake"
   "huffman/CMakeFiles/libHuffman.dir/DependInfo.cmake"
   )

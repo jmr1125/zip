@@ -1,4 +1,5 @@
 #include "main-def.cpp"
+#include <stdlib.h>
 
 filein::filein(){
   fp=NULL;
@@ -13,6 +14,10 @@ filein::~filein(){
 
 filein::filein(const char *filename){
   fp=fopen(filename,"rb");
+  if(fp==NULL){
+    fprintf(stderr,"\033[31mERROR: error while open file `%s\'\033[0m\n",filename);
+    exit(1);
+  }
 }
 
 int8_t filein::read_byte(){
@@ -33,6 +38,10 @@ fileout::fileout(){
 
 fileout::fileout(const char *filename){
   fp=fopen(filename,"wb");
+  if(fp==NULL){
+    fprintf(stderr,"\033[31mERROR: error while open file `%s\'\n",filename);
+    exit(1);
+  }
 }
 
 void fileout::write_byte(const int8_t & c){

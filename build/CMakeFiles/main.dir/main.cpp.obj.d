@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/main.cpp.obj: E:\hmz\main.cpp \
- E:\hmz\huffman/libhufman.cpp \
+CMakeFiles/main.dir/main.cpp.obj: L:\hmz\main.cpp \
+ L:\hmz\huffman/libhufman.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\queue \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\deque \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
@@ -101,7 +101,7 @@ CMakeFiles/main.dir/main.cpp.obj: E:\hmz\main.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cerrno \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_multimap.h \
- E:\hmz\FOLib/main-def.cpp \
+ L:\hmz\FOLib/main-def.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cstring \
  c:\mingw\include\string.h c:\mingw\include\strings.h \
  c:\mingw\include\wchar.h \

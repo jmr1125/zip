@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/hmz/test2.cpp" "CMakeFiles/test2.dir/test2.cpp.obj" "gcc" "CMakeFiles/test2.dir/test2.cpp.obj.d"
+  "L:/hmz/test2.cpp" "CMakeFiles/test2.dir/test2.cpp.obj" "gcc" "CMakeFiles/test2.dir/test2.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "E:/hmz/build/huffman/CMakeFiles/libHuffman.dir/DependInfo.cmake"
+  "L:/hmz/build/huffman/CMakeFiles/libHuffman.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

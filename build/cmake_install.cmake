@@ -1,4 +1,4 @@
-# Install script for directory: E:/hmz
+# Install script for directory: L:/hmz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/hmz/build/FOlib/cmake_install.cmake")
-  include("E:/hmz/build/huffman/cmake_install.cmake")
+  include("L:/hmz/build/FOLib/cmake_install.cmake")
+  include("L:/hmz/build/huffman/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/hmz/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "L:/hmz/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

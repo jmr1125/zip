@@ -1,5 +1,5 @@
-CMakeFiles/test2.dir/test2.cpp.obj: E:\hmz\test2.cpp \
- E:\hmz\huffman/libhufman.cpp \
+CMakeFiles/test2.dir/test2.cpp.obj: L:\hmz\test2.cpp \
+ L:\hmz\huffman/libhufman.cpp \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\queue \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\deque \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\stl_algobase.h \
