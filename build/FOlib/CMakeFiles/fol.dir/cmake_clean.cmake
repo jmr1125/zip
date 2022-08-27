@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/fol.dir/main.cpp.obj"
-  "CMakeFiles/fol.dir/main.cpp.obj.d"
+  "CMakeFiles/fol.dir/main.cpp.o"
   "libfol.a"
   "libfol.pdb"
 )

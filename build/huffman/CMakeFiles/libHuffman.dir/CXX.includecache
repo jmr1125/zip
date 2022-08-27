@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/l:/hmz/huffman/hufman.cpp
+libhufman.cpp
+/home/ubuntu/l:/hmz/huffman/libhufman.cpp
+stdio.h
+-
+vector
+-
+algorithm
+-
+functional
+-
+
+/home/ubuntu/l:/hmz/huffman/libhufman.cpp
+queue
+-
+vector
+-
+stddef.h
+-
+map
+-
+

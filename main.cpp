@@ -50,19 +50,12 @@ int main(int argc,char**argv){
     printf("\033[38mcompressing \033[39m%s\033[0m\n",i.c_str());
     map<char,int> freq;
     char c;
-    //FILE* fp=fopen(i.c_str(),"rb");
-    //while((c=fgetchar(fp))){
-    //while(fread(c,1,1,fp)){
     filein f(i.c_str());
-    for(int i=1;i<=10;++i){
-      printf("%c-",f.read_byte());
+    while(f.fp.good()){
+      c=f.read_byte();
+      freq[c]++;
     }
-    // while((c=f.read_byte())!=EOF){
-    //   printf("%d\n",(int)c);
-    //   freq[c]++;
-    // }
-    // printf("%d\n",(int)c);
-    // auto it = create(freq);
-    // display(it);
+    auto it = create(freq);
+    display(it);
   }
 }

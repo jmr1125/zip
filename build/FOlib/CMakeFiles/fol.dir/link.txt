@@ -1,2 +1,2 @@
-C:\MinGW\bin\ar.exe qc libfol.a CMakeFiles/fol.dir/main.cpp.obj
-C:\MinGW\bin\ranlib.exe libfol.a
+/bin/ar qc libfol.a  CMakeFiles/fol.dir/main.cpp.o
+/bin/ranlib libfol.a
