@@ -1,22 +1,26 @@
-#include"libIO.cpp"
+#include"libIO/libIO.cpp"
 #include<stdio.h>
 
 #include<iostream>
 
 int main(){
+  {
   OUT fout("a.txt");
   fout.write((int8)'a');
-  fout.write((int16)255);
-  IN fin("a.txt");
-  printf("%d\n",(fin.fp==NULL));
-  printf("%d\n%d\n",fin.read_byte(),fin.read_word());
-  while(true){
-    int16 c=fin.read_word();
-    if(c==EOF){
-      break;
-    }
-    printf("%d ",(int)c);
+  //fout.write((int16)255);
+  fout.flush();
+  // getchar();
   }
+  IN fin("a.txt");
+  // printf("%d\n",(fin.fp==NULL));
+  // printf("%d\n%d\n",fin.read_byte(),fin.read_word());
+  // while(true){
+  //   int16 c=fin.read_word();
+  //   if(c==EOF){
+  //     break;
+  //   }
+  //   printf("%d ",(int)c);
+  // }
   // char c;
   // fread(&c,1,1,fin.fp);
   // printf("%d\n",c);
@@ -26,4 +30,7 @@ int main(){
   // std::cin>>c;
   // std::cout<<(int)c<<std::endl;
   // return 0;
+  //printf("%d,%d",(int)fin.read_byte(),fin.read_word());
+  std::cout<<fin.read_byte();
+  return 0;
 }

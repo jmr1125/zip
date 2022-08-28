@@ -8,7 +8,7 @@
 using std::priority_queue;
 using std::map;
 using std::vector;
-using std::less;
+//using std::less;
 
 HuffmanTree::HuffmanTree(){
   l=r=NULL;
@@ -28,7 +28,9 @@ bool HuffmanTree::operator < (const HuffmanTree &rsh) const{
 }
 
 struct cmp{
-  inline operator < (const HuffmanTree * lsh
+  inline bool operator () (const HuffmanTree * lsh,const HuffmanTree * rsh){
+    return lsh->freq > rsh->freq;
+  }
 };
 
 HuffmanTree* create(map<char,int> mp){
@@ -39,7 +41,7 @@ HuffmanTree* create(map<char,int> mp){
     it->val=i.first;
     it->freq=i.second;
     que.push(it);
-    //printf("%c %d\n",it->val,it->freq);
+    printf("%c %d\n",it->val,it->freq);
   }
   //printf("ok\n");
   while(que.size()!=1){

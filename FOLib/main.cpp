@@ -21,14 +21,15 @@ int8_t filein::read_byte(){
 
 int16_t filein::read_word(){
   int8_t val1=fp.get(),val2=fp.get();
-  return (val1<<8)|val2;
+  //printf("read_word:%d,%d\n",val1,val2);
+  return (val2<<8)|val1;
 }
 
 fileout::fileout(){
 }
 
 fileout::fileout(const char *filename){
-  fp.open(filename,ios_base::out|ios_base::trunc);
+  fp.open(filename,ios_base::out|ios_base::trunc|ios_base::binary);
   if(!fp.good()){
     fprintf(stderr,"\033[31mERROR: error while open file `%s\'\n",filename);
     exit(1);

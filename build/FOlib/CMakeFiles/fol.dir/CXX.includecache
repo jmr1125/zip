@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/l:/hmz/FOlib/main-def.cpp
+stdio.h
+-
+stdint.h
+-
+fstream
+-
+
+/home/ubuntu/l:/hmz/FOlib/main.cpp
+main-def.cpp
+/home/ubuntu/l:/hmz/FOlib/main-def.cpp
+stdlib.h
+-
+

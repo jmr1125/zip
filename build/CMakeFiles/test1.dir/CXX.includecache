@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/l:/hmz/FOLib/main-def.cpp
+stdio.h
+-
+stdint.h
+-
+fstream
+-
+
+/home/ubuntu/l:/hmz/testFOLib.cpp
+FOLib/main-def.cpp
+/home/ubuntu/l:/hmz/FOLib/main-def.cpp
+
